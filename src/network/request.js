@@ -22,7 +22,7 @@ export function request(config){
   },error=>{
     console.log(error);
   })
-  //3:
+  //3:dsfsdf
   return instance(config);
 }
 //拦截器的使用
