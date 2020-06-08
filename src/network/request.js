@@ -4,7 +4,7 @@ export function request(config){
   const instance = axios.create({
     baseURL:''
   })
-  //2:拦截器的使用
+  //2:拦截器的使用sdfsdf
   instance.interceptors.request.use(config=>{
     console.log(config);
     //1:比如config中的一些信息不符合服务器的要求
